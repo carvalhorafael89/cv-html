@@ -1,0 +1,110 @@
+.fundo{
+    display: flex;
+    background-color: grey;
+    margin: auto;
+    flex-flow: row wrap;
+    width: 80vw;
+}
+
+.col1{
+    width: 25vw;
+    height: 55vw;
+    background-color: rgb(77, 77, 77);
+}
+
+.col2{
+    width: 30vw;
+    height: 55vw;
+    background-color: rgb(139, 139, 139);
+}
+
+.col3{
+    text-justify:distribute;
+    width: 25vw;
+    height: 55vw;
+    background-color: rgb(77, 77, 77);
+}
+
+.linha_hor{
+    height: 1px;
+    background: black;
+}
+
+.fundo.texto{
+    font-size: large;
+    width: 50%;
+    height: 100%;
+    background-color: lightgrey;
+}
+
+img{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 60%;
+}
+
+.icone{
+    width: 6vw;
+    height: 6vw;
+    margin-bottom: 2vw;
+    justify-content: space-between;
+}
+
+.centralizado{
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo{
+    margin-left: 5%;
+    margin-bottom: 10%;
+    color: white;
+    font-size: 2vw;
+}
+
+.titulo_sobre_mim{
+    margin-left: 5%;
+    margin-bottom: 10%;
+    color: white;
+    font-size: 3vw;
+}
+
+.corpo{
+    margin-left: 2%;
+    color: white;
+    font-size: 1.6vw;
+}
+
+.corpo_detalhes{
+    margin-left: 2%;
+    color: white;
+    font-size: 1.3vw;
+}
+
+.corpo_sobre_mim{
+    margin-left: 2%;
+    color: white;
+    font-size: 1.6vw;
+    width: fit-content;
+    height: 40vw;
+}
+
+.incol{
+    float:right;
+    color: white;
+    font-size: 2vw;
+    margin-top: 3vw;
+    margin-right: 5vw;
+}
+
+.footer{
+    background-color: rgb(58, 58, 58);
+    height: 2vw;
+    width: 100vw;
+    padding: 0.5vw;
+    text-align: center;
+    font-size: 1vw;
+    color: white;
+}
